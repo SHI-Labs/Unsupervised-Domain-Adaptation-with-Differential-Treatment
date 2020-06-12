@@ -2,15 +2,14 @@
 
 This repository is for SIM introduced in the following paper accepted by CVPR2020
 
-**[Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation](https://arxiv.org/abs/2003.08040)** 
-[Zhonghao Wang](https://scholar.google.com/citations?user=opL6CL8AAAAJ&hl=en),
+**[Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation](https://arxiv.org/abs/2003.08040)**  [Zhonghao Wang](https://scholar.google.com/citations?user=opL6CL8AAAAJ&hl=en),
 [Yo Mo](https://sites.google.com/site/moyunlp/),
 [Yunchao Wei](https://weiyc.github.io/),
 [Rogerio Feris](http://rogerioferis.com/),
 [Jinjun Xiong](https://scholar.google.com/citations?user=tRt1xPYAAAAJ&hl=en),
 [Wen-mei Hwu](https://scholar.google.com/citations?user=ohjQPx8AAAAJ&hl=en),
 [Thomas S. Huang](https://scholar.google.com/citations?user=rGF6-WkAAAAJ&hl=en),
-[Honghui Shi](https://www.humphreyshi.com/)
+and [Humphrey Shi](https://www.humphreyshi.com/)
 
 <div align="center">
   <img src="Figs/idea.png" width="50%">
@@ -109,19 +108,19 @@ Test the SIM model without self-supervised training:
 ## Citation
 
 ```
-@inproceedings{Wang2020differential,
-  title={Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation},
-  author={{Wang}, Zhonghao and {Yu}, Mo and {Wei}, Yunchao and {Feris}, Rogerio and
-         {Xiong}, Jinjun and {Hwu}, Wen-mei and {Huang}, Thomas S. and
-         {Shi}, Humphrey},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2020}
+@InProceedings{Wang_2020_CVPR,
+author = {Wang, Zhonghao and Yu, Mo and Wei, Yunchao and Feris, Rogerio and Xiong, Jinjun and Hwu, Wen-mei and Huang, Thomas S. and Shi, Honghui},
+title = {Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
 }
-@inproceedings{Wang2020Alleviating,
-  title={Alleviating Semantic-level Shift: A Semi-supervised Domain Adaptation Method for Semantic Segmentation},
-  author={{Wang}, Zhonghao and {Wei}, Yunchao and {Feris}, Rogerio and {Xiong}, Jinjun and {Hwu}, Wen-mei and {Huang}, Thomas S. and {Shi}, Humphrey},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-  year={2020}
+@InProceedings{Wang_2020_CVPR_Workshops,
+author = {Wang, Zhonghao and Wei, Yunchao and Feris, Rogerio and Xiong, Jinjun and Hwu, Wen-mei and Huang, Thomas S. and Shi, Honghui},
+title = {Alleviating Semantic-Level Shift: A Semi-Supervised Domain Adaptation Method for Semantic Segmentation},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+month = {June},
+year = {2020}
 }
 ```
 
