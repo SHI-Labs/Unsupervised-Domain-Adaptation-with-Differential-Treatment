@@ -45,10 +45,54 @@ ln -s path_to_gta5_deeplab_folder ./data/gta5_deeplab
 
 ### Environment setup
 
+The code is built on Ubuntu 18.04 environment with CUDA 10.0 and cuDNN 7.6.5, and it is trained and tested with a Nvidia Rtx 2080Ti GPU.
+
 Create a new conda environment and install dependencies:
 ```
 conda create -n simenv python=3.7
 conda activate simenv
 pip install -r requirements.txt
 ```
-Please follow instructions to install [apex](https://github.com/NVIDIA/apex)
+Please install apex from the [official repo](https://github.com/NVIDIA/apex). 
+
+## Train
+
+### First phase
+
+Train the SIM model:
+```
+python train_sim.py
+```
+
+### Second phase
+Generate the sudo labels for Cityscapes training set:
+```
+python SSL.py
+```
+Train SIM with self-supervised learning:
+```
+python train_sim_ssl.py
+```
+
+## Test
+Test the final model:
+```
+./eva.sh snapshots_ssl/BestGTA5.pth
+```
+
+Test the SIM model without self-supervised training:
+```
+./eva.sh snapshots/BestGTA5.pth
+```
+
+## Citation
+```
+@inproceedings{Wang2020differential,
+  title={Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation},
+  author={{Wang}, Zhonghao and {Yu}, Mo and {Wei}, Yunchao and {Feris}, Rogerio and
+         {Xiong}, Jinjun and {Hwu}, Wen-mei and {Huang}, Thomas S. and
+         {Shi}, Humphrey},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020}
+}
+```
