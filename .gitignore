@@ -1,0 +1,12 @@
+*.pyc
+*.pth
+*.png
+*.jpg
+data/*
+__pycache__
+result*
+snapshots*
+ssl*
+target_ssl_gt
+*.out
+eva.bash
