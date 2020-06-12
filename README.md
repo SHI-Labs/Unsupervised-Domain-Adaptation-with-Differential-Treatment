@@ -1,6 +1,6 @@
 # Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation
 
-This repository is for SIM introduced in the following paper accepted by CVPR2020
+This repository is for Stuff Instance Matching (SIM) framework introduced in the following paper accepted by CVPR2020
 
 **[Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation](https://arxiv.org/abs/2003.08040)**  [Zhonghao Wang](https://scholar.google.com/citations?user=opL6CL8AAAAJ&hl=en),
 [Yo Mo](https://sites.google.com/site/moyunlp/),
