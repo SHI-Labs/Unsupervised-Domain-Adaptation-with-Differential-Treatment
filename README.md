@@ -85,7 +85,27 @@ Test the SIM model without self-supervised training:
 ./eva.sh snapshots/BestGTA5.pth
 ```
 
+## Results
+
+<div align="center">
+  <img src="Figs/gta5_results.png" width="70%">
+  Comparison to the state-of-the-art results of adapting GTA5 to Cityscapes.
+</div>
+
+<div align="center">
+  <img src="Figs/synthia_results.png" width="70%">
+  Comparison to the state-of-the-art results of adapting SYNTHIA to Cityscapes.
+</div>
+
+## Visual results
+
+<div align="center">
+  <img src="Figs/visualization.png" width="100%">
+  Visualization of the segmentation results.
+</div>
+
 ## Citation
+
 ```
 @inproceedings{Wang2020differential,
   title={Differential Treatment for Stuff and Things: A Simple Unsupervised Domain Adaptation Method for Semantic Segmentation},
@@ -95,4 +115,14 @@ Test the SIM model without self-supervised training:
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2020}
 }
+@inproceedings{Wang2020Alleviating,
+  title={Alleviating Semantic-level Shift: A Semi-supervised Domain Adaptation Method for Semantic Segmentation},
+  author={{Wang}, Zhonghao and {Wei}, Yunchao and {Feris}, Rogerio and {Xiong}, Jinjun and {Hwu}, Wen-mei and {Huang}, Thomas S. and {Shi}, Humphrey},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  year={2020}
+}
 ```
+
+## Acknowledgements
+
+This code is developed on the code base of [AdaptSegNet](https://github.com/wasidennis/AdaptSegNet) and utilizes the CycleGAN transferred target images released by [BDL](https://github.com/liyunsheng13/BDL). Many thanks to the authors of these works. 
