@@ -14,7 +14,6 @@ This repository is for SIM introduced in the following paper accepted by CVPR202
 
 <div align="center">
   <img src="Figs/idea.png" width="50%">
-  Illustration of the proposed Stuff Instance Matching (SIM) structure
 </div>
 
 
@@ -27,3 +26,29 @@ We consider the problem of unsupervised domain adaptation for semantic segmentat
   Training framework
 </div>
 
+
+## Prerequisites
+
+Download our repo:
+```
+git clone https://github.com/SHI-Labs/Unsupervised-Domain-Adaptation-with-Differential-Treatment.git
+cd Unsupervised-Domain-Adaptation-with-Differential-Treatment
+```
+
+### Data preparation
+
+Download [Cityscapes](https://www.cityscapes-dataset.com/) and CycleGAN transferred [GTA5](https://drive.google.com/open?id=1OBvYVz2ND4ipdfnkhSaseT8yu2ru5n5l) datasets. Symbolic link them under ```data``` folder:
+```
+ln -s path_to_Cityscapes_folder ./data/Cityscapes
+ln -s path_to_gta5_deeplab_folder ./data/gta5_deeplab
+```
+
+### Environment setup
+
+Create a new conda environment and install dependencies:
+```
+conda create -n simenv python=3.7
+conda activate simenv
+pip install -r requirements.txt
+```
+Please follow instructions to install [apex](https://github.com/NVIDIA/apex)
