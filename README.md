@@ -88,12 +88,14 @@ Test the SIM model without self-supervised training:
 ## Results
 
 <div align="center">
-  <img src="Figs/gta5_results.png" width="70%">
+  <img src="Figs/gta5_results.png" width="100%">
+  
   Comparison to the state-of-the-art results of adapting GTA5 to Cityscapes.
 </div>
 
 <div align="center">
-  <img src="Figs/synthia_results.png" width="70%">
+  <img src="Figs/synthia_results.png" width="100%">
+  
   Comparison to the state-of-the-art results of adapting SYNTHIA to Cityscapes.
 </div>
 
