@@ -36,10 +36,11 @@ cd Unsupervised-Domain-Adaptation-with-Differential-Treatment
 
 ### Data preparation
 
-Download [Cityscapes](https://www.cityscapes-dataset.com/) and [CycleGAN transferred GTA5](https://drive.google.com/open?id=1OBvYVz2ND4ipdfnkhSaseT8yu2ru5n5l) datasets. Symbolic link them under ```data``` folder:
+Download [Cityscapes](https://www.cityscapes-dataset.com/), [CycleGAN transferred GTA5](https://drive.google.com/open?id=1OBvYVz2ND4ipdfnkhSaseT8yu2ru5n5l) datasets and [labels](https://drive.google.com/file/d/11E42F_4InoZTnoATi-Ob1yEHfz7lfZWg/view?usp=sharing). Symbolic link them under ```data``` folder:
 ```
 ln -s path_to_Cityscapes_folder ./data/Cityscapes
 ln -s path_to_gta5_deeplab_folder ./data/gta5_deeplab
+ln -s path_to_gta5_labels_folder ./data/gta5_deeplab/labels
 ```
 
 ### Environment setup
