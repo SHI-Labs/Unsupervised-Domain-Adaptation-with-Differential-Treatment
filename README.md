@@ -76,12 +76,12 @@ python train_sim_ssl.py
 ```
 
 ## Test
-Test the final model:
+Test the final model ([trained model](https://drive.google.com/file/d/1PgAaM6ySMdxPiZWJhgSCdFKP4c88E4y0/view?usp=sharing)):
 ```
 ./eva.sh snapshots_ssl/BestGTA5.pth
 ```
 
-Test the SIM model without self-supervised training:
+Test the SIM model without self-supervised training ([trained model](https://drive.google.com/file/d/1ulC_GTSxVPiUW6jMylZrTgiKfggqM4Sr/view?usp=sharing)):
 ```
 ./eva.sh snapshots/BestGTA5.pth
 ```
