@@ -4,4 +4,4 @@ scipy==1.4
 tensorboardX==2.0
 scikit-image==0.16.2
 Pillow==7.1
-opencv-python==4.1.1.26
+opencv-python==4.2.0.32
