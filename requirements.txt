@@ -3,5 +3,5 @@ torchvision==0.4.1
 scipy==1.4
 tensorboardX==2.0
 scikit-image==0.16.2
-Pillow==7.1
+Pillow==9.0.0
 opencv-python==4.1.1.26
